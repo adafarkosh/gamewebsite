@@ -1,9 +1,9 @@
 # Nocturne – Game Promo Website
 
-Small gothic promo site for a fictional game. Built for the Web Authoring assignment (deployment, markup, layout, responsiveness, accessibility).
+<small>Small gothic promo site for a fictional game. Built for the Web Authoring assignment (deployment, markup, layout, responsiveness, accessibility).</small>
+![Website screenshot](previewforgit.png)
 
 ---
-
 ## 1. Deployment & How to Run
 
 **Live (GitHub Pages)**  
