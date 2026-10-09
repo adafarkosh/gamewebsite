@@ -2,6 +2,7 @@
 
 
 .background {
+    /* at first the background didn't fill the whole screen, height: 100vh + cover solved it */
     position: relative; /* anchor for absolute children = all other things with "position absolute" */
     background-image: url("../images/backgroundindex_text.png");
     background-size: cover;
@@ -16,7 +17,7 @@
 
 /* NAVBAR */
 .menu ul {
-    z-index: 1000;    /* VISIBLE on top of the background and flexboxes */
+    z-index: 1000;    /* VISIBLE on top of the background and flexboxes *//* navbar was barely visible under the background, z-index puts it on top */
     position: fixed; 
     top: 0;
     width: 100%;
@@ -53,6 +54,7 @@
 }
 
 .welcometext {
+    /* the box kept changing its position when resizing the window, % instead of px fixed it */
     position: absolute;
     top: 45%;      
     right: 10%;    
@@ -301,7 +303,7 @@ td {
 }
 
 tr:hover td { 
-
+    /* first version looked like a plain spreadsheet, so only horizontal lines + row hover */
     /*TR:HOVER = only hovered row + TD then = selects all its TD cells */
     background-color: rgba(91, 21, 23, 0.35);
     cursor: pointer;
